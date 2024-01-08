@@ -1,0 +1,7 @@
+.positionMenu a:nth-child(1) {
+  pointer-events: none;
+  cursor: default;
+  color: #888;
+}
+
+/*# sourceMappingURL=subContent.css.map */

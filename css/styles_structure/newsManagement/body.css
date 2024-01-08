@@ -1,0 +1,21 @@
+/* flex properties - starts */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* flex properties - end */
+.wrapper {
+  background: rebeccapurple;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=body.css.map */

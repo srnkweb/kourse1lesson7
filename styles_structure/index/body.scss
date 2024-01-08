@@ -1,0 +1,24 @@
+/* flex properties - starts */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100vh;
+}
+body {
+  min-height: 100vh;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+/* flex properties - end */
+
+.wrapper {
+  background: bisque;
+}

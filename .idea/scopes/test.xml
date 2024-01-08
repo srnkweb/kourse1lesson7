@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="test" pattern="file[kourse1lesson7.local]:custom_structure/index/*&amp;&amp;!file:custom_structure/index/variables.scss&amp;&amp;!file:custom_structure/index/mixins.scss" />
+</component>

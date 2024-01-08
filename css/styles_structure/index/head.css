@@ -1,0 +1,49 @@
+/* flex properties - starts */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hMenu {
+  display: flex;
+  text-decoration: none;
+  overflow-wrap: break-word;
+  justify-content: center;
+  align-items: center;
+}
+
+/* flex properties - end */
+.header {
+  background: green;
+  border: 3px solid black;
+  max-height: 10vh;
+}
+
+.hMenu {
+  padding-top: 1%;
+  width: 30%;
+  height: 90%;
+  background: orange;
+  border: 3px solid black;
+  margin: 1%;
+  font-size: calc((100vw - 320px) / 960 * 5 + 14px);
+}
+
+.header a:hover {
+  color: red;
+  background: aqua;
+}
+
+.header a:active {
+  color: aqua;
+  background: red;
+}
+
+.header a:nth-child(1) {
+  background: grey;
+  color: white;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=head.css.map */
